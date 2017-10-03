@@ -1,0 +1,32 @@
+<h1>Welcome to my Travel Site</h1>
+<p>This is my very awesome travel site.</p>
+
+<p>Thanks for visiting, my hometown is <%= @homeland %><p>
+
+
+<ul>
+  <% @countries.each do |country| %>
+    <li><%= country %></li>
+  <% end %>
+</ul>
+
+<%= image_tag "chile.jpg", alt: "Atacama",
+                          id: "chile",
+                          class: "country",
+                          height: 300,
+                          width: 400 %>
+
+<%= image_tag "bolivia.jpg", alt: "Atacama",
+                          id: "bolivia",
+                          class: "country",
+                          height: 300,
+                          width: 400 %>
+<%= image_tag "croatia.jpg", alt: "Atacama",
+                          id: "croatia",
+                          class: "country",
+                          height: 300,
+                          width: 400 %>
+
+
+<!-- comment in erb cntrl+/
+ -->
